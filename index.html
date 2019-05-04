@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GetJson</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Data Json To Table</h2>
+    <p>Ketik sesuatu untuk mencari data:</p>
+    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+    <div class="loadable">
+      <div class="loading-mask"></div>
+        <table id="initable"  class="table table-bordered table-striped">
+            <tr>
+                <th width="5px">No</th>
+                <th class="th">name</th>
+                <th class="th">model</th>
+                <th class="th">manufacturer</th>
+                <th class="th">cost_in_credits</th>
+                <th class="th">length</th>
+                <th class="th">max_atmosphering_speed</th>
+                <th class="th">crew</th>
+                <th class="th">passengers</th>
+                <th class="th">cargo_capacity</th>
+                <th class="th">consumables</th>
+                <th class="th">vehicle_class</th>
+            </tr>  
+        </table>
+    </div>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>

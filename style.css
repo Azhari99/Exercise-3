@@ -1,0 +1,9 @@
+.loadable {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+  }
+  #myInput {
+    margin-bottom: 0.667em;
+  }
